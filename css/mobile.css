@@ -2,8 +2,6 @@ h1 {
    font-family:sans-serif;
     font-size:30px;  
     font-weight: 500;
-  
-    
    
 }
 h2, h3, h4, h5, p, ol, dl{
@@ -37,35 +35,34 @@ table, th, td, tr{
     margin-right:auto;
     top:auto;
     left:10px;
-    
-    
-    
-   
-    
-    
-    
-  
-   
 }
+
+
+
+   
 
 #links li{
     list-style-type:none;
-    font-size:18px;
+    font-size:20px;
+    
     
   
 }
 /*länk navigatorn*/
 
 
+    
+
 #links a:link{
     display:block;
     width:auto;
     background-color:#586970;
-    margin:4px 0; 
-    text-align:left;
+    margin:3px 0; 
+    text-align:center;
     color:black;
     font-family:sans-serif,tahoma;
-    font-size:16px;
+    font-size:23px;
+    text-decoration:none;
 }
 #links a:visited{
     background-color:#3d494e;
@@ -79,7 +76,6 @@ table, th, td, tr{
 
 #logotyp
 {
-    
     height:100px; 
     width:100px;
     display:block;
@@ -104,6 +100,7 @@ table, th, td, tr{
 
 #header 
 {
+    
     margin:auto;
     width:auto;
     height:200px;
@@ -122,11 +119,18 @@ table, th, td, tr{
     height:900px;
     top:auto;
     background-color:#88959A;
-    overflow-x:auto;
-    top:22%;
- 
+}
+#content h1, h2, h3, h4{
+    position:relative;
+    margin:5px 20px 20px 20px;
     
+   
+}
+#content p{
+    position:relative;
+    margin:3px 20px 0 20px;
     
+   
 }
 
 /* kolla med lärare om bättre sätt än "top -450px" */
@@ -134,7 +138,7 @@ table, th, td, tr{
 #navigation
 
 {   position:relative;
-    top:-906px;
+    top:auto;
     left:auto;
     width:auto;
     height:auto;
@@ -160,7 +164,7 @@ table, th, td, tr{
     height:60px;
     width:auto;
     left:auto;
-    top:-65px;
+    top:auto;
     
     background-color:#586970;
     text-align:center;
@@ -176,7 +180,9 @@ table, th, td, tr{
 #bunny-video p {
      display:block;
      background-color:silver;
-     width:220px;
+     width:100%;
+     
+     
      
  }
  
@@ -230,3 +236,7 @@ table, th, td, tr{
       
       
   }
+#bloggbild{
+    width:100%;
+    
+}
