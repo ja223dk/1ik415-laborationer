@@ -1,0 +1,213 @@
+/*text inställningar*/
+h1 {
+   font-family:sans-serif;
+    font-size:30px;  
+    font-weight: 500;
+  
+    
+   
+}
+h2, h3, h4, h5, p, ol, dl{
+    font-family:times,georgia;
+}
+/*-----------------------------*/
+table th {
+    background:white;
+    color:black;
+}
+
+td{
+    background:#white;
+}
+tfoot td{
+    background:white;
+    color:;
+}
+
+table, th, td, tr{
+   
+    text-align:center;
+    margin:auto;
+}
+header,h1{
+    display:none;
+    font-size:30px;
+    font-family:Comic Sans MS;
+    text-align:center;
+    height:50px;
+    width:400px;
+    position:relative;
+    top:-100px;
+    left:250px;
+}
+
+#links li{ 
+    list-style-type:none;
+    font-size:18px;
+  
+}
+/*länk navigatorn*/
+
+#links ul li{ 
+    list-style-type:none;
+    
+  
+}
+#links a:link{
+    
+    display:block;
+    width:120px;
+    background-color:#586970;
+    margin:2px 0; 
+    text-align:left;
+    color:black;
+    font-family:sans-serif,tahoma;
+    font-size:16px;
+}
+#links a:visited{ display:none;
+    background-color:#3d494e;
+    color:black;
+}
+
+#links a:hover{ display:none;
+    
+    background-color:#77858a;
+}
+/*---------------------------*/
+
+#logotyp{ display:none;
+    
+    height:100px; 
+    width:100px;
+    
+}
+#pic{
+    width:100px;
+    height:120px;
+}
+
+#container{ 
+    margin:auto;
+    width:960px;
+    height:1200px;
+    background-color:white;
+  
+}
+
+
+#header{
+    margin:auto;
+    width:900px;
+    height:100px;
+    background-color:white;
+    position:relative;
+    top:20px;
+}
+
+
+ /* kolla med lärare om och när man ska använda sig av relative /absolute kommandon. */
+#content 
+{    
+    position:relative;
+    left:175px;
+    width:755px;
+    height:900px;
+    top:46px;
+    background-color:white;
+    overflow-x:auto;
+   
+   
+    
+}
+
+/* kolla med lärare om bättre sätt än "top -450px" */
+
+#navigation{display:none;
+    position:relative;
+    top:-875px;
+    left:30px;
+    width:120px;
+    height:600px;
+    background-color:#88959A;
+    
+}
+#navigation h4{ display:none;
+    text-align:center;
+    font-size:16px;
+    background-color:#586970;
+    height:25px;
+    
+}
+
+#footer{ display:none;  
+   
+    position:relative;
+    height:60px;
+    width:755px;
+    left:175px;
+    top:-570px;
+    background-color:#586970;
+    text-align:center;
+}
+
+#bunny-video {
+    height:240px;
+    width:400px;
+    position:relative;
+    left:110px;
+    
+}
+#bunny-video p {
+     display:block;
+     background-color:silver;
+     width:220px;
+     
+ }
+ 
+ /*iställningar för kontakt flik*/
+ 
+#contact_title{
+    text-align:center;
+    font-size:17px;
+    font-family:sans-serif
+     
+ }
+ 
+.litenIkon{
+     height:50px;
+     width:735px;
+     position:relative;
+     margin:10px;
+     float:left;
+     background-size: 50px 50px;
+     background-repeat:no-repeat;
+     border-bottom: 1px solid #000000;
+    
+     
+ }
+ .litenIkon h2{
+     text-align:left;
+     width:600px;
+     height:30px;
+     position:relative;
+     top:-60px;
+     left:60px;
+     
+  }
+  
+  #blogg1Text p{
+      font-family:times;
+      font-size:16px;
+      font-weight:normal;
+      padding:20px;
+      
+  }
+  #person_uppgifter{
+      text-align:right;
+     
+      
+      
+ 
+  }
+
+  

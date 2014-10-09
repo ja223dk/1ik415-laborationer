@@ -1,0 +1,232 @@
+h1 {
+   font-family:sans-serif;
+    font-size:30px;  
+    font-weight: 500;
+  
+    
+   
+}
+h2, h3, h4, h5, p, ol, dl{
+    font-family:sans-serif,tahoma;
+    
+}
+/*-----------------------------*/
+table th {
+    background-color:#0D1F26;
+    color:#88959A;
+}
+
+td{
+    background-color:#586970;
+}
+tfoot td{
+    background-color:#0D1F26;
+    color:#88959A;
+}
+
+table, th, td, tr{
+    border:1px solid #0D1F26;
+    text-align:center;
+    margin:auto;
+}
+#headerText h1{
+    width:250px;
+    height:auto;
+    position:relative;
+    margin-left:auto;
+    margin-right:auto;
+    top:auto;
+    left:10px;
+    
+    
+    
+   
+    
+    
+    
+  
+   
+}
+
+#links li{
+    list-style-type:none;
+    font-size:18px;
+    
+  
+}
+/*länk navigatorn*/
+
+
+#links a:link{
+    display:block;
+    width:auto;
+    background-color:#586970;
+    margin:4px 0; 
+    text-align:left;
+    color:black;
+    font-family:sans-serif,tahoma;
+    font-size:16px;
+}
+#links a:visited{
+    background-color:#3d494e;
+    color:black;
+}
+
+#links a:hover{
+    background-color:#77858a;
+}
+/*---------------------------*/
+
+#logotyp
+{
+    
+    height:100px; 
+    width:100px;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    
+}
+#pic{
+    width:100px;
+    height:120px;
+}
+
+#container 
+{
+    margin:auto;
+    width:auto;
+    height:1200px;
+    background-color:#0D1F26;
+  
+}
+
+
+#header 
+{
+    margin:auto;
+    width:auto;
+    height:200px;
+    background-color:#586970;
+    position:relative;
+    top:auto;
+}
+
+
+ /* kolla med lärare om och när man ska använda sig av relative /absolute kommandon. */
+#content 
+{    
+    position:relative;
+    left:auto;
+    width:auto;
+    height:900px;
+    top:auto;
+    background-color:#88959A;
+    overflow-x:auto;
+    top:22%;
+ 
+    
+    
+}
+
+/* kolla med lärare om bättre sätt än "top -450px" */
+
+#navigation
+
+{   position:relative;
+    top:-906px;
+    left:auto;
+    width:auto;
+    height:auto;
+    background-color:#88959A;
+}
+#navigation a{
+    text-align:center;
+}
+#navigation h4{
+    
+    text-align:center;
+    font-size:18px;
+    background-color:#586970;
+    height:30px;
+    
+    
+    
+}
+
+#footer 
+{  
+    position:relative;
+    height:60px;
+    width:auto;
+    left:auto;
+    top:-65px;
+    
+    background-color:#586970;
+    text-align:center;
+}
+
+#bunny-video {
+    height:240px;
+    width:400px;
+    position:relative;
+    left:110px;
+    
+}
+#bunny-video p {
+     display:block;
+     background-color:silver;
+     width:220px;
+     
+ }
+ 
+ /*iställningar för kontakt flik*/
+ 
+#contact_title{
+    text-align:center;
+    font-size:17px;
+    font-family:sans-serif
+     
+ }
+ 
+.litenIkon{
+     height:50px;
+     width:735px;
+     position:relative;
+     margin:10px;
+     float:left;
+     background-size: 50px 50px;
+     background-repeat:no-repeat;
+     border-bottom: 1px solid #000000;
+    
+     
+ }
+ .litenIkon h2{
+     text-align:left;
+     width:600px;
+     height:30px;
+     position:relative;
+     top:-60px;
+     left:60px;
+     
+  }
+  
+  .bloggText p{
+      font-family:times, sans-serif;;
+      font-size:16px;
+      font-weight:normal;
+      padding:20px;
+      
+      
+  }
+  input{
+      display:block;
+      
+  }
+  fieldset{
+      width:180px;
+      margin:0;
+      
+      
+      
+  }
