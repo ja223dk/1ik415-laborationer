@@ -1,6 +1,8 @@
 
 img video{
     max-width:100%;
+    
+}
 
 /*text inställningar*/
 h1 {
@@ -84,6 +86,7 @@ header,h1{
 #pic{
     width:100px;
     height:120px;
+    margin:0 0 0 20px;
 }
 
 #container 
@@ -117,9 +120,16 @@ header,h1{
     top:46px;
     background-color:#88959A;
     overflow-x:auto;
-    
 }
-
+#content h2{
+    margin:20px;
+}
+#content h3{
+    margin:20px;
+}
+#content p{
+    margin:20px;
+}
 /* kolla med lärare om bättre sätt än "top -450px" */
 
 #navigation
