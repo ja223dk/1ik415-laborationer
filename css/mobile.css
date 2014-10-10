@@ -1,7 +1,4 @@
 
-img video{
-    max-width:100%;
-}
 
 h1 {
  1  font-family:sans-serif;
@@ -39,7 +36,7 @@ table, th, td, tr{
     margin-left:auto;
     margin-right:auto;
     top:auto;
-    left:10px;
+    left:0px;
 }
 
 
@@ -48,7 +45,17 @@ table, th, td, tr{
 
 #links li{
     list-style-type:none;
-    font-size:20px;
+    font-size:18px;
+    
+    
+  
+}
+#links h4{
+    width:auto;
+    margin:5px 0 10px 0;
+    font-size:18px;
+    font-weight:bold;
+   
     
     
   
@@ -62,12 +69,13 @@ table, th, td, tr{
     display:block;
     width:auto;
     background-color:#586970;
-    margin:3px 0; 
+    margin:5px 0 5px 0; 
     text-align:center;
     color:black;
     font-family:sans-serif,tahoma;
-    font-size:23px;
+    font-size:18px;
     text-decoration:none;
+    padding:8px;
 }
 #links a:visited{
     background-color:#3d494e;
@@ -121,9 +129,10 @@ table, th, td, tr{
     position:relative;
     left:auto;
     width:auto;
-    height:900px;
+    height:auto;
     top:auto;
     background-color:#88959A;
+    overflow:hidden:
 }
 #content h1, h2, h3, h4{
     position:relative;
@@ -175,11 +184,11 @@ table, th, td, tr{
     text-align:center;
 }
 
-#bunny-video {
-    height:240px;
-    width:400px;
+#bunny-video video{
+    width:100%;
     position:relative;
-    left:110px;
+   
+    
     
 }
 #bunny-video p {

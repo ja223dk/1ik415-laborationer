@@ -118,7 +118,7 @@ header,h1{
     left:175px;
     width:755px;
     height:900px;
-    top:-600px;
+    top:-520px;
     background-color:#88959A;
     overflow-x:auto;
 }
@@ -135,12 +135,12 @@ header,h1{
 
 #navigation
 {   position:relative;
-    top:auto;
+    top:30px;
     left:30px;
     width:120px;
-    height:600px;
+    height:550px;
     background-color:#88959A;
-    margin:50px 0 0 0 ;
+   
   
     
 }
