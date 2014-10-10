@@ -58,7 +58,7 @@ header,h1{
 
 #links a:link{
     display:block;
-    width:120px;
+    width:auto;
     background-color:#586970;
     margin:2px 0; 
     text-align:left;
@@ -101,12 +101,13 @@ header,h1{
 
 #header 
 {
-    margin:auto;
-    width:900px;
+    margin:0 30px 0 30px;
+    width:auto;
     height:100px;
     background-color:#586970;
     position:relative;
     top:20px;
+    
 }
 
 
@@ -117,7 +118,7 @@ header,h1{
     left:175px;
     width:755px;
     height:900px;
-    top:46px;
+    top:-600px;
     background-color:#88959A;
     overflow-x:auto;
 }
@@ -134,11 +135,12 @@ header,h1{
 
 #navigation
 {   position:relative;
-    top:-875px;
+    top:auto;
     left:30px;
     width:120px;
     height:600px;
     background-color:#88959A;
+    margin:50px 0 0 0 ;
   
     
 }
