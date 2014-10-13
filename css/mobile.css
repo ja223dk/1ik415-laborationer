@@ -1,7 +1,7 @@
 
 
 h1 {
- 1  font-family:sans-serif;
+    font-family:sans-serif;
     font-size:30px;  
     font-weight: 500;
    
@@ -52,9 +52,11 @@ table, th, td, tr{
 }
 #links h4{
     width:auto;
-    margin:5px 0 10px 0;
+    margin:10px 0 10px 0;
     font-size:18px;
     font-weight:bold;
+    background-color:black;
+  
    
     
     
@@ -104,8 +106,8 @@ table, th, td, tr{
 #container 
 {
     margin:auto;
-    width:auto;
-    height:1200px;
+    width:100%;
+    height:auto;
     background-color:#0D1F26;
   
 }
@@ -132,7 +134,8 @@ table, th, td, tr{
     height:auto;
     top:auto;
     background-color:#88959A;
-    overflow:hidden:
+    overflow:hidden;
+    margin:10px 0 0 0;
 }
 #content h1, h2, h3, h4{
     position:relative;
@@ -206,6 +209,7 @@ table, th, td, tr{
     text-align:center;
     font-size:17px;
     font-family:sans-serif
+   
      
  }
  
@@ -240,12 +244,15 @@ table, th, td, tr{
       
   }
   input{
+      margin:auto;
       display:block;
+      
       
   }
   fieldset{
-      width:180px;
-      margin:0;
+      margin:auto;
+      width:auto;
+      text-align:center;
       
       
       
