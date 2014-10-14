@@ -56,24 +56,8 @@ header,h1{
 /*länk navigatorn*/
 
 
-#links a:link{
-    display:block;
-    width:auto;
-    background-color:#586970;
-    margin:2px 0; 
-    text-align:left;
-    color:black;
-    font-family:sans-serif,tahoma;
-    font-size:16px;
-}
-#links a:visited{
-    background-color:#3d494e;
-    color:black;
-}
 
-#links a:hover{
-    background-color:#77858a;
-}
+
 /*---------------------------*/
 
 #logotyp
@@ -217,19 +201,10 @@ header,h1{
       
       
   }
+
+      
   
-  #links .labrationPic{
-      display:block;
-      height:24px;
-      width:24px;
-      background-image: url(css/pics/linkbild.png);
-     
-     
-      
-      
-    
-    
-  }
+
   input{
       display:block;
       
@@ -237,7 +212,80 @@ header,h1{
   fieldset{
       width:180px;
       margin:0;
-      
-      
-      
-  }
+}
+
+span{
+    position:relative;
+    margin:10px 0 0 0;
+    display:block;
+    width:120px;
+    text-align:center;
+    
+    
+}
+
+ .navLabration a{
+    position:relative;
+   display:block;
+   width:auto;
+   height:24px;
+   background: url(pics/linkbild.png) 0 -96px no-repeat;
+   background-color:#586970;
+   
+   
+  
+}
+ .navLabration a:hover{
+    display:block;
+    background: url(pics/linkbild.png) 0 -144px no-repeat;
+    background-color:white;
+   
+    
+    
+}
+ .navPresentation a{
+   display:block;
+   width:auto;
+   height:24px;
+   background: url(pics/linkbild.png) 0 -192px no-repeat;
+   background-color:#586970;
+   
+   
+  
+}
+ .navPresentation a:hover{
+    display:block;
+    background: url(pics/linkbild.png) 0 -240px no-repeat;
+    background-color:white;
+    
+    
+}
+ .navKontakt a{
+    display:block;
+   width:auto;
+   height:24px;
+   background: url(pics/linkbild.png) 0 -288px no-repeat;
+   background-color:#586970;
+   
+  
+}
+ .navKontakt a:hover{
+    display:block;
+    background: url(pics/linkbild.png) 0 -336px no-repeat;
+    background-color:white;
+    
+    
+}
+span a {
+    display:block;
+    text-decoration:none;
+    color:black;
+    
+    
+    
+    
+   
+}
+
+
+

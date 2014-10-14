@@ -38,18 +38,9 @@ table, th, td, tr{
     top:auto;
     left:0px;
 }
-
-
-
-   
-
-#links li{
-    list-style-type:none;
-    font-size:18px;
     
     
   
-}
 #links h4{
     width:auto;
     margin:10px 0 10px 0;
@@ -67,25 +58,7 @@ table, th, td, tr{
 
     
 
-#links a:link{
-    display:block;
-    width:auto;
-    background-color:#586970;
-    margin:5px 0 5px 0; 
-    text-align:center;
-    color:black;
-    font-family:sans-serif,tahoma;
-    font-size:18px;
-    text-decoration:none;
-    padding:8px;
-}
-#links a:visited{
-    background-color:#3d494e;
-    color:black;
-}
 
-#links a:hover{
-    background-color:#77858a;
 }
 /*---------------------------*/
 
@@ -161,9 +134,7 @@ table, th, td, tr{
     height:auto;
     background-color:#88959A;
 }
-#navigation a{
-    text-align:center;
-}
+
 #navigation h4{
     
     text-align:center;
