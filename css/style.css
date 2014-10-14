@@ -152,7 +152,7 @@ header,h1{
     height:240px;
     width:400px;
     position:relative;
-    left:110px;
+  margin:auto;
     
 }
 #bunny-video p {
@@ -276,16 +276,37 @@ span{
     
     
 }
-span a {
+ .navHome a{
+    display:block;
+   width:auto;
+   height:24px;
+   background: url(pics/linkbild.png) 0 -0px no-repeat;
+   background-color:#586970;
+   
+  
+}
+ .navHome a:hover{
+    display:block;
+    background: url(pics/linkbild.png) 0 -48px no-repeat;
+    background-color:white;
+    
+    
+}
+#links a {
     display:block;
     text-decoration:none;
     color:black;
-    
-    
-    
-    
-   
 }
-
-
+#links li{
+    display:block;
+    position:relative;
+    text-align:center;
+    background-color:#586970;
+    margin:10px 0 0 0;
+}
+#links li a:hover{
+    display:block;
+    background-color:white;
+    
+}
 

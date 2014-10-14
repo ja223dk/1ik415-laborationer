@@ -107,7 +107,7 @@ table, th, td, tr{
     height:auto;
     top:auto;
     background-color:#88959A;
-    overflow:hidden;
+    overflow-x:hidden;
     margin:10px 0 0 0;
 }
 #content h1, h2, h3, h4{
@@ -136,7 +136,7 @@ table, th, td, tr{
 }
 
 #navigation h4{
-    
+    margin:5px 0 5px 0;
     text-align:center;
     font-size:18px;
     background-color:#586970;
@@ -153,18 +153,26 @@ table, th, td, tr{
     width:auto;
     left:auto;
     top:auto;
-    
     background-color:#586970;
     text-align:center;
 }
-
+#bunny-video{
+    height:200px;
+    width:auto;
+    position:relative;
+    
+    
+}
 #bunny-video video{
+ height:auto;
     width:100%;
     position:relative;
    
     
     
+  
 }
+
 #bunny-video p {
      display:block;
      background-color:silver;
@@ -186,24 +194,24 @@ table, th, td, tr{
  
 .litenIkon{
      height:50px;
-     width:735px;
+     width:100%;
      position:relative;
      margin:10px;
      float:left;
      background-size: 50px 50px;
      background-repeat:no-repeat;
-     border-bottom: 1px solid #000000;
+     border-bottom: 1px solid black;
     
      
  }
  .litenIkon h2{
      text-align:left;
-     width:600px;
+     width:100%;
      height:30px;
      position:relative;
      top:-60px;
      left:60px;
-     
+     font-size:18px;
   }
   
   .bloggText p{
@@ -232,3 +240,113 @@ table, th, td, tr{
     width:100%;
     
 }
+span{
+    position:relative;
+    margin:3px 0 0 0;
+    display:block;
+    width:auto;
+    height:30px;
+    background-color:#586970;
+    font-size:18px;
+    
+    
+    
+}
+
+ .navLabration a{
+    position:relative;
+   display:block;
+   width:auto;
+   height:24px;
+   background: url(pics/linkbild.png) 0 -96px no-repeat;
+ 
+   
+   
+   
+   
+  
+}
+ .navLabration a:hover{
+    display:block;
+    background: url(pics/linkbild.png) 0 -144px no-repeat;
+    background-color:white;
+   
+    
+    
+}
+ .navPresentation a{
+   display:block;
+   width:auto;
+   height:24px;
+   background: url(pics/linkbild.png) 0 -192px no-repeat;
+   
+   
+   
+  
+}
+ .navPresentation a:hover{
+    display:block;
+    background: url(pics/linkbild.png) 0 -240px no-repeat;
+    background-color:white;
+    
+    
+}
+ .navKontakt a{
+    display:block;
+   width:auto;
+   height:24px;
+   background: url(pics/linkbild.png) 0 -288px no-repeat;
+   
+   
+  
+}
+ .navKontakt a:hover{
+    display:block;
+    background: url(pics/linkbild.png) 0 -336px no-repeat;
+    background-color:white;
+    
+    
+}
+ .navHome a{
+    display:block;
+   width:auto;
+   height:24px;
+   background: url(pics/linkbild.png) 0 -0px no-repeat;
+   
+   
+  
+}
+ .navHome a:hover{
+    display:block;
+    background: url(pics/linkbild.png) 0 -48px no-repeat;
+    background-color:white;
+    
+    
+}
+#links a {
+    position:relative;
+    display:block;
+    text-decoration:none;
+    color:black;
+    top:5px;
+    
+    
+}
+#links li{
+    display:block;
+    position:relative;
+    text-align:center;
+    background-color:#586970;
+    margin:3px 0 0 0;
+    height:30px;
+    
+}
+#links li a:hover{
+    display:block;
+    background-color:white;
+    height:30px;
+    
+}
+
+
+
