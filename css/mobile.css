@@ -47,20 +47,7 @@ table, th, td, tr{
     font-size:18px;
     font-weight:bold;
     background-color:black;
-  
-   
-    
-    
-  
 }
-/*länk navigatorn*/
-
-
-    
-
-
-}
-/*---------------------------*/
 
 #logotyp
 {
@@ -91,7 +78,7 @@ table, th, td, tr{
     
     margin:auto;
     width:auto;
-    height:200px;
+    height:auto;
     background-color:#586970;
     position:relative;
     top:auto;
@@ -104,10 +91,10 @@ table, th, td, tr{
     position:relative;
     left:auto;
     width:auto;
-    height:auto;
+    height:1900px;
     top:auto;
     background-color:#88959A;
-    overflow-x:hidden;
+    overflow:hidden;
     margin:10px 0 0 0;
 }
 #content h1, h2, h3, h4{
@@ -136,7 +123,7 @@ table, th, td, tr{
 }
 
 #navigation h4{
-    margin:5px 0 5px 0;
+    margin:-10px 0 5px 0;
     text-align:center;
     font-size:18px;
     background-color:#586970;
