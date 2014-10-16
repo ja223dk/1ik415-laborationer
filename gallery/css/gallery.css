@@ -1,0 +1,13 @@
+#container{
+    margin:auto;
+}
+#images img{
+  position:relative;
+  border: 10px solid #fff;  
+  float: left;
+  height: 300px;
+  width: 300px;
+  margin: 20px;
+  overflow: hidden;
+  box-shadow: 10px 5px 15px grey; 
+}
