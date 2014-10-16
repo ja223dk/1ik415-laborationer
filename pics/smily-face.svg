@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<svg width="100" height="100" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
+ <title>smile-face</title>
+ <g>
+  <title>Layer 1</title>
+  <ellipse stroke="#000000" ry="37" rx="40.500001" id="svg_1" cy="49" cx="48.499999" stroke-width="5" fill="#FF0000"/>
+  <ellipse stroke="#000000" ry="12" rx="6" id="svg_2" cy="37" cx="63" stroke-width="5" fill="#0000bf"/>
+  <ellipse stroke="#000000" ry="5.5" rx="12.500001" id="svg_3" cy="32.5" cx="30.5" stroke-width="5" fill="#0000bf"/>
+  <ellipse id="svg_4" cy="40" cx="291" stroke-width="5" stroke="#000000" fill="#FF0000"/>
+  <path stroke="#000000" id="svg_5" d="m23,62.74577c0,0 13.251968,13.25423 13.251968,13.25423c0,0 24.897636,-2.593231 24.897636,-2.593231c0,0 12.850395,-9.508472 12.850395,-9.508472c0,0 -13.653542,-0.288136 -13.653542,-0.288136c0,0 -9.236237,3.457634 -9.236237,3.457634c0,0 -4.818878,2.593246 -4.818878,2.593246c0,0 -8.83466,-5.474609 -8.83466,-5.474609c0,0 -10.440948,-5.186432 -10.440948,-5.186432c0,0 -4.015736,3.74577 -4.015736,3.74577z" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="5" fill="#000000"/>
+ </g>
+</svg>
