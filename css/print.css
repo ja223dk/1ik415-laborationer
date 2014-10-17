@@ -89,7 +89,7 @@ header,h1{
 #container{ 
     margin:auto;
     width:960px;
-    height:1200px;
+    height:auto;
     background-color:white;
   
 }
@@ -105,22 +105,22 @@ header,h1{
 }
 
 
- /* kolla med lärare om och när man ska använda sig av relative /absolute kommandon. */
+
 #content 
 {    
     position:relative;
     left:175px;
     width:755px;
-    height:900px;
+    height:auto;
     top:46px;
-    background-color:white;
-    overflow-x:auto;
+    overflow:none;
+    
    
    
     
 }
 
-/* kolla med lärare om bättre sätt än "top -450px" */
+
 
 #navigation{display:none;
     position:relative;
