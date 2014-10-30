@@ -246,7 +246,7 @@ header,h1{
  .navLabration a:active{
     display:block;
     background: url(pics/linkbild.png) 0 -144px no-repeat;
-    background-color:green;
+    background-color:blue;
    
     
     
@@ -271,7 +271,7 @@ header,h1{
  .navPresentation a:active{
     display:block;
     background: url(pics/linkbild.png) 0 -240px no-repeat;
-    background-color:green;
+    background-color:blue;
     
     
 }
@@ -294,7 +294,7 @@ header,h1{
  .navKontakt a:active{
     display:block;
     background: url(pics/linkbild.png) 0 -336px no-repeat;
-    background-color:green;
+    background-color:blue;
  }
   .navHome a{
     display:block;
@@ -314,7 +314,7 @@ header,h1{
 .navHome a:active{
     display:block;
     background: url(pics/linkbild.png) 0 -48px no-repeat;
-    background-color:green;
+    background-color:blue;
     
     
 }

@@ -1,13 +1,57 @@
+body{
+  background-color:AntiqueWhite;
+
+}
+
 #container{
     margin:auto;
+    
 }
-#images img{
+#images li{
   position:relative;
-  border: 10px solid #fff;  
   float: left;
-  height: 300px;
-  width: 300px;
-  margin: 20px;
-  overflow: hidden;
-  box-shadow: 10px 5px 15px grey; 
+  list-style: none;
+  
+  
+ 
+
+}
+#images  li:hover :nth-child(1n+1){
+  position:relative;
+  box-shadow: 20px 20px 80px black; 
+  -webkit-transform: scale(1.2, 1.2) rotate(3deg);
+  -webkit-transition-duration: 500ms;
+  -webkit-transition-timing-function: ease-out;
+    z-index:100;
+   
+
+}
+#images li:nth-child(4n+4){
+  -webkit-transform: rotate(7deg);
+  z-index:1;
+}
+#images li:nth-child(5n+1){
+  -webkit-transform: rotate(-10deg);
+  z-index:2;
+}
+#images li:nth-child(4n+2){
+  -webkit-transform: rotate(4deg);
+  z-index:3;
+}
+#images li:nth-child(5n+3){
+  -webkit-transform: rotate(-5deg);
+  z-index:4;
+}
+img{
+  position:relative;
+  display:block;
+  position:relative;
+  width:200px;
+  height:200px;
+  border: 10px solid #fff;  
+   box-shadow: 10px 5px 15px black; 
+   -webkit-transform: scale(1, 1);
+  -webkit-transition-duration: 500ms;
+  -webkit-transition-timing-function: ease-out;
+
 }

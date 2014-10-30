@@ -229,8 +229,8 @@ table, th, td, tr{
 }
 span{
     position:relative;
+    display:inline-block;
     margin:3px 0 0 0;
-    display:block;
     width:auto;
     height:30px;
     background-color:#586970;
@@ -315,7 +315,9 @@ span{
     display:block;
     text-decoration:none;
     color:black;
-    top:5px;
+    padding:5px 0 0 0;
+    width:auto;
+   
     
     
 }
